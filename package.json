@@ -1,0 +1,19 @@
+{
+  "name": "webdev-backend",
+  "version": "1.0.0",
+  "description": "group members: Alexandra DeJesus, Mingmar Dolma, Pramit Dey, Ryan Chevarria",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchevarria/webDev-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchevarria/webDev-Backend/issues"
+  },
+  "homepage": "https://github.com/rchevarria/webDev-Backend#readme"
+}
