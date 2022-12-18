@@ -3,7 +3,7 @@ const db = require('../db');
 
 const Task = db.define("task", {
     
-    description:{
+    description: {
         type: Sequelize.STRING,
         allowNull: false
     },

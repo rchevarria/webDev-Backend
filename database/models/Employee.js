@@ -7,12 +7,12 @@ const Employee = db.define("employee", {
         allowNull: false
     },
     
-    lastname:{
+    lastname: {
         type: Sequelize.STRING,
         allowNull: false
     },
     
-    department:{
+    department: {
         type: Sequelize.STRING,
     }
 });
