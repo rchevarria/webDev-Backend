@@ -1,19 +1,18 @@
 {
-  "name": "webdev-backend",
+  "name": "webDev-Backend",
   "version": "1.0.0",
-  "description": "group members: Alexandra DeJesus, Mingmar Dolma, Pramit Dey, Ryan Chevarria",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rchevarria/webDev-Backend.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rchevarria/webDev-Backend/issues"
-  },
-  "homepage": "https://github.com/rchevarria/webDev-Backend#readme"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "pgtools": "^0.3.2",
+    "sequelize": "^6.26.0"
+  }
 }

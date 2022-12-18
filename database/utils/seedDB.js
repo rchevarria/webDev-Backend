@@ -15,7 +15,7 @@ const seedDB = async () => {
     const dummyTask = await Task.create({
         description: "Data Entry",
         priority: "medium",
-        completion: false
+        completion: "false"
     });
     
     await dummyTask.setEmployee(dummyEmployee);
